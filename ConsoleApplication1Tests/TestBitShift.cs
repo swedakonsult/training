@@ -64,5 +64,27 @@ namespace ConsoleApplication1Tests
             int truth = pellet1 / divisor;
             Assert.AreEqual(truth, BitShift.ShiftRight(pellet1, shiftSize));
         }
+
+        [TestMethod]
+        public void TestShiftByteLeft_AutocastsToInt()
+        {
+            var guineaPig = new BitShift();
+            const byte pellet1 = 34;
+            const int shiftSize = 2;
+
+            var result = guineaPig.ShiftByte(pellet1, shiftSize, ShiftDirection.Left);
+            Assert.AreEqual(typeof(int), result.GetType());
+        }
+
+        [TestMethod]
+        public void TestShiftByteRight_AutocastsToInt()
+        {
+            var guineaPig = new BitShift();
+            const byte pellet1 = 34;
+            const int shiftSize = 2;
+
+            var result = guineaPig.ShiftByte(pellet1, shiftSize, ShiftDirection.Right);
+            Assert.AreEqual(typeof(int), result.GetType());
+        }
     }
 }
