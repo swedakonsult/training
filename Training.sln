@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1Tests", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService1", "WcfService1\WcfService1.csproj", "{1422CDF2-6CDC-4A91-9B62-B465DB500D96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebFunctionality", "TestWebFunctionality\TestWebFunctionality.csproj", "{87BD3A5F-2EE2-46F8-90C7-2C82A428A1EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1422CDF2-6CDC-4A91-9B62-B465DB500D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1422CDF2-6CDC-4A91-9B62-B465DB500D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1422CDF2-6CDC-4A91-9B62-B465DB500D96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87BD3A5F-2EE2-46F8-90C7-2C82A428A1EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87BD3A5F-2EE2-46F8-90C7-2C82A428A1EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87BD3A5F-2EE2-46F8-90C7-2C82A428A1EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87BD3A5F-2EE2-46F8-90C7-2C82A428A1EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
